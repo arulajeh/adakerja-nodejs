@@ -4,7 +4,7 @@ const moment = require('moment');
 const getOrCreateUser = (userid) => {
   return db.users.findOrCreate({
     where: { userid: userid },
-    defaults: { userid: userid }
+    defaults: { userid: userid, state: "start", name: "" }
   }).then(result => {
     return result[0].get({ plain: true });
   });
