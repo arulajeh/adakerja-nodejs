@@ -2,6 +2,8 @@
 
 A test to become a node.js developer
 
+![Chatbot Result](https://media.giphy.com/media/bTr4DM2HECdXbivZjO/giphy.gif)
+
 # Setting up the Messenger App
 
 ## Requirements
