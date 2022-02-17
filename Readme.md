@@ -115,6 +115,19 @@ Use the `VERIFY_TOKEN` that you created in `.env` file
 http://localhost:8080/webhook?hub.verify_token={VERIFY_TOKEN}&hub.challenge=CHALLENGE_ACCEPTED&hub.mode=subscribe
 ```
 
-If everything is correct it will display the response `CHALLENGE ACCEPTED`
+You have fully set up your app, you can start send message on your facebook page.
 
-You have fully set up your app, you can start send message on your facebook page
+# Testing
+
+### Install mocha from npm
+
+Run this on your terminal / CMD
+``` 
+npm install -g mocha 
+```
+
+### Test the application
+Run this on your terminal / cmd
+```
+npm test
+```

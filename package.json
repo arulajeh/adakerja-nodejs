@@ -4,7 +4,7 @@
   "description": "Adakerja webhook test",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "Syahrulloh",
   "license": "ISC",
@@ -18,5 +18,9 @@
     "pg": "^8.7.3",
     "sequelize": "^6.16.1",
     "sequelize-cli": "^6.4.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "supertest": "^6.2.2"
   }
 }
